@@ -10,3 +10,5 @@ dependencies:
     - git+https://github.com/catherinedevlin/ipython-sql.git
     - git+git://github.com/lux-org/lux-widget.git
     - git+git://github.com/lux-org/lux.git
+script:
+  - bash widget_install.sh
