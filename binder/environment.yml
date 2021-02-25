@@ -8,5 +8,4 @@ dependencies:
   - pip:
     - pandas
     - git+https://github.com/catherinedevlin/ipython-sql.git
-    - git+git://github.com/lux-org/lux-widget.git
     - git+https://github.com/thyneb19/lux.git@/Database-Executor
