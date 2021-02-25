@@ -12,6 +12,9 @@ mv init_db $CONDA_DIR/
 chmod +x $CONDA_DIR/init_db/postgres/init_db.sh
 $CONDA_DIR/init_db/postgres/init_db.sh
 
+jupyter nbextension install --py luxwidget --user
+jupyter nbextension enable --py luxwidget
+
 #Put an equivalent of the above in a config file: init_db.sql
 #psql -U postgres postgres -f init_db.sql
 #psql test < seed_db.sql
