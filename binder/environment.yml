@@ -11,4 +11,5 @@ dependencies:
     - git+git://github.com/lux-org/lux-widget.git
     - git+git://github.com/lux-org/lux.git
 script:
-  - bash widget_install.sh
+  - jupyter nbextension install --py luxwidget --user
+  - jupyter nbextension enable --py luxwidget
