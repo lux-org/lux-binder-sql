@@ -9,4 +9,4 @@ dependencies:
     - pandas
     - git+https://github.com/catherinedevlin/ipython-sql.git
     - git+git://github.com/lux-org/lux-widget.git
-    - git+git://github.com/thyneb19/lux.git@Database-Executor
+    - git+git://github.com/lux-org/lux.git@sql-engine
