@@ -2,7 +2,7 @@
 
 # lux-binder-sql
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thyneb19/jupyter-postgres-demo/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lux-org/lux-binder-sql/HEAD)
 
 This repository contains a Demo notebook that overviews how Lux can be used with Postgresql databases. In this Binder instance, Postgres comes pre-installed via Anaconda. This means that you do not have to install Postgres on your local machine in order to use Lux' SQL capabilities within the demo notebook. 
 
